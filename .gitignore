@@ -9,3 +9,5 @@
 
 # Executables
 *.exe
+NPMK/.DS_Store
+.DS_Store
