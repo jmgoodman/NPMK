@@ -807,8 +807,8 @@ if EndPacket > sum(NSx.MetaTags.DataPoints)
     end
     disp('The time interval specified is longer than the data duration.');
     disp('Last data point will be used instead.');
-    disp('Press enter to continue...');
-    pause;
+    % disp('Press enter to continue...');
+    % pause;
     EndPacket = sum(NSx.MetaTags.DataPoints) - 1;
 end
 
